@@ -1,0 +1,176 @@
+.left-nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+    height: 100vh;
+    width: 60px;
+    color: white;
+    z-index: 2;
+}
+
+
+.left-nav .icones {
+    margin-top: 50px;
+    margin-left: -40px;
+    filter: invert();
+}
+
+
+.left-nav .icones li {
+    list-style: none;
+    float: left;
+    cursor: pointer;
+    transform-origin: center;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0s;
+
+}
+
+
+
+.barre-reseau {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(55, 55, 55);
+    width: 0px;
+    filter: invert();
+    opacity: 0;
+    transition: 0.1s;
+}
+
+
+.barre-active-reseau {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(51, 51, 51);
+    width: 6px;
+    border-radius: 4px;
+    filter: invert();
+    opacity: 1;
+
+}
+
+.barre-stat {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(55, 55, 55);
+    width: 0px;
+    filter: invert();
+    opacity: 0;
+    transition: 0.1s;
+}
+
+
+.barre-active-stat {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(51, 51, 51);
+    width: 6px;
+    border-radius: 4px;
+    filter: invert();
+    opacity: 1;
+}
+
+
+.barre-list {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(55, 55, 55);
+    width: 0px;
+    filter: invert();
+    opacity: 0;
+    transition: 0.1s;
+}
+
+
+.barre-active-list {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(51, 51, 51);
+    width: 6px;
+    border-radius: 4px;
+    filter: invert();
+    opacity: 1;
+
+}
+
+
+.barre-build {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(255, 255, 255);
+    width: 0px;
+    filter: invert();
+    opacity: 0;
+    transition: 0.1s;
+}
+
+
+.barre-active-build {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(51, 51, 51);
+    width: 6px;
+    border-radius: 4px;
+    filter: invert();
+    opacity: 1;
+
+}
+
+
+.barre-echange {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(255, 255, 255);
+    width: 0px;
+    filter: invert();
+    opacity: 0;
+    transition: 0.1s;
+}
+
+
+.barre-active-echange {
+    position: fixed;
+    height: 74px;
+    margin-left: 12px;
+    margin-top: -20px;
+    background-color: rgb(51, 51, 51);
+    width: 6px;
+    border-radius: 4px;
+    filter: invert();
+    opacity: 1;
+
+}
+
+
+.left-nav .icones li:hover{
+    background-color: beige;
+    filter: invert();
+}
+
+.left-nav .icones li img {
+    width: 30px;
+    transform-origin: center;
+}
+
